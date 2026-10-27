@@ -42,7 +42,7 @@ follow the applicable license and usage terms.
   "rights_status": "REVIEW_REQUIRED",
   "split": "train"
 }
-
+```
 Responsible Use
 This example does not grant rights to download, copy, modify, train on, or redistribute ActivityNet Captions or any other third-party dataset.
 
