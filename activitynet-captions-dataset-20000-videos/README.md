@@ -49,8 +49,9 @@ This example does not grant rights to download, copy, modify, train on, or redis
 Do not upload source videos, captions, credentials, or unverified derived data.
 
 ## Related Projects
-Video Dataset Toolkit
-Licensed Video Dataset Directory
+
+- [Video Dataset Toolkit](https://github.com/Thordata/video-dataset-toolkit)
+- [Licensed Video Dataset Directory](https://github.com/Thordata/awesome-licensed-video-datasets)
 
 ## License
 The MIT License applies only to this repository's code and documentation. Third-party data remains subject to its own license and usage terms.
