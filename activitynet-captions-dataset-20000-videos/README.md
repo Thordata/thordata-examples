@@ -1,22 +1,55 @@
-# Thordata Examples
+# Proxy for Streaming Data Extraction Pipeline
 
-Curated examples for Thordata AI data workflows, dataset pipelines, and developer integrations.
+This example documents a streaming data extraction pipeline for collecting,
+resuming, validating, and preparing video-related records for AI workflows.
 
-## Examples
+## What This Example Covers
 
-- [ActivityNet Captions video pipeline](activitynet-captions-dataset-20000-videos/)
+- Streaming collection of structured records
+- Resumable downloads
+- Record-level validation
+- Separate metadata, captions, transcripts, and media references
+- Versioned manifests for downstream processing
 
-## Scope
+## Dataset Scope
 
-Examples may include documentation, code, manifests, and synthetic metadata. They do not automatically include or redistribute third-party media or datasets.
+This example uses ActivityNet Captions as a reference for pipeline structure
+and metadata organization.
 
-Use all examples only with authorized data and credentials.
+It does not redistribute the complete dataset, source videos, captions, or
+third-party media. Users must obtain data through an authorized source and
+follow the applicable license and usage terms.
 
-## Related Projects
+## Suggested Pipeline
 
-- [Video Dataset Toolkit](https://github.com/Thordata/video-dataset-toolkit)
-- [Licensed Video Dataset Directory](https://github.com/Thordata/awesome-licensed-video-datasets)
+1. Collect approved metadata and record identifiers.
+2. Write records incrementally to a staging directory.
+3. Validate required fields and record identifiers.
+4. Resume incomplete downloads instead of restarting the full job.
+5. Keep metadata, captions, transcripts, and media references separate.
+6. Generate a versioned manifest for downstream processing.
+7. Review licensing and redistribution permissions before use.
 
-## License
+## Example Record
 
-The MIT License applies to this repository's code and documentation only. Third-party data remains subject to its own license and usage terms.
+```json
+{
+  "record_id": "example-000001",
+  "source": "AUTHORIZED_SOURCE",
+  "media_reference": "APPROVED_MEDIA_REFERENCE",
+  "caption_reference": "APPROVED_CAPTION_REFERENCE",
+  "duration_seconds": 0,
+  "rights_status": "REVIEW_REQUIRED",
+  "split": "train"
+}
+
+Responsible Use
+This example does not grant rights to download, copy, modify, train on, or redistribute ActivityNet Captions or any other third-party dataset.
+
+Do not upload source videos, captions, credentials, or unverified derived data.
+
+Related Projects
+Video Dataset Toolkit
+Licensed Video Dataset Directory
+License
+The MIT License applies only to this repository's code and documentation. Third-party data remains subject to its own license and usage terms.
