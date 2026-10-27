@@ -43,13 +43,14 @@ follow the applicable license and usage terms.
   "split": "train"
 }
 ```
-Responsible Use
+## Responsible Use
 This example does not grant rights to download, copy, modify, train on, or redistribute ActivityNet Captions or any other third-party dataset.
 
 Do not upload source videos, captions, credentials, or unverified derived data.
 
-Related Projects
+## Related Projects
 Video Dataset Toolkit
 Licensed Video Dataset Directory
-License
+
+## License
 The MIT License applies only to this repository's code and documentation. Third-party data remains subject to its own license and usage terms.
