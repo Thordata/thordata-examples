@@ -1,0 +1,9 @@
+[
+  {
+    "record_id": "example-000001",
+    "source": "AUTHORIZED_SOURCE",
+    "media_reference": "APPROVED_MEDIA_REFERENCE",
+    "duration_seconds": 0,
+    "rights_status": "REVIEW_REQUIRED"
+  }
+]

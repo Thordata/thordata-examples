@@ -1,0 +1,20 @@
+{
+  "dataset_id": "activitynet-captions-dataset-20000-videos",
+  "version": "0.1.0",
+  "description": "Metadata-only example for a video extraction pipeline.",
+  "license": "REVIEW_REQUIRED",
+  "commercial_use": "REVIEW_REQUIRED",
+  "ai_training": "REVIEW_REQUIRED",
+  "redistribution": "REVIEW_REQUIRED",
+  "records": [
+    {
+      "record_id": "example-000001",
+      "source": "AUTHORIZED_SOURCE",
+      "media_reference": "APPROVED_MEDIA_REFERENCE",
+      "caption_reference": "APPROVED_CAPTION_REFERENCE",
+      "duration_seconds": 0,
+      "rights_status": "REVIEW_REQUIRED",
+      "split": "train"
+    }
+  ]
+}
